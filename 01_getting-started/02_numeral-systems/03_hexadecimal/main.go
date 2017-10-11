@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func (){
-	fmt.Printf("%d - %b",42, 42)
+func main() {
+	fmt.Printf("%d - %b - %#X \t", 42, 42, 42)
 }
